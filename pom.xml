@@ -46,5 +46,10 @@
             </plugin>
         </plugins>
     </build>
-
+    <scm>
+        <connection>scm:git:https://github.com/alcideswenner/teste-maven-release.git</connection>
+        <developerConnection>scm:git:git@github.com:alcideswenner/teste-maven-release.git</developerConnection>
+        <url>https://github.com/alcideswenner/teste-maven-release</url>
+        <tag>@{project.version}</tag>
+    </scm>
 </project>
